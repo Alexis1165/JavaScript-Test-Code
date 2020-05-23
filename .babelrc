@@ -1,0 +1,17 @@
+{
+    "presets": [
+      ["env", {
+        "targets": {
+          "node": "current"
+        }
+      }]
+    ],
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "knexClient": "./knexClient"
+        }
+      }]
+    ]
+  }
+  
